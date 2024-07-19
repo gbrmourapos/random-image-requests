@@ -4,8 +4,8 @@ const IMAGE_FOX_PATH = 'https://randomfox.ca';
 
 const getCard = (content) => {
     return `
-        <div class="card">
-            <img src="${content.url ?? content.image}" class="card-cat card-img-top">
+        <div class="card card-border">
+            <img src="${content.url ?? content.image}" class="card-img-top">
         </div>
     `;
 }

@@ -12,11 +12,35 @@
     width: 600px;
 }
 
-.cat-container .btn {
-    width: 150px;
+.cat-description, .dog-description, .fox-description {
+    padding: 1rem 0;
 }
 
-.cat-container .card-cat {
-    border-radius: 10px;
+.cat-description div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    align-items: center;
+}
+
+.dog-description div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    align-items: center;
+}
+
+.fox-description div {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.5rem 0;
+    align-items: center;
+}
+
+.card-border {  
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+img {
+    border-radius: .25rem;
 }
